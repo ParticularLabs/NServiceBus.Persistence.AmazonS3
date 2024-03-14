@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\NServiceBus.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NServiceBus" Version="9.0.0" />
+    <PackageReference Include="Particular.Packaging" Version="4.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <!--<ItemGroup>
+    <InternalsVisibleTo Include="NServiceBus.Persistence.AmazonS3.PersistenceTests" Key="$(NServiceBusTestsKey)" />
+    <InternalsVisibleTo Include="NServiceBus.Persistence.AmazonS3.Tests" Key="$(NServiceBusTestsKey)" />
+  </ItemGroup>-->
+
+</Project>

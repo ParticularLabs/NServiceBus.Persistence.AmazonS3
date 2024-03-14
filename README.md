@@ -1,1 +1,7 @@
-# NServiceBus.Persistence.AmazonS3
+# NServiceBus.Persistence.Amazons3
+
+TBD
+
+## Running tests locally
+
+TBD
